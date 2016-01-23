@@ -3,9 +3,9 @@
 nomepf="cyclesort"
 nomesf="ocsort"
 
-dim1="5000"
-dim2="10000"
-dim3="15000"
+dim1="50000"
+dim2="100000"
+dim3="150000"
 
 #Funzione che stampa i tempi di una compilazione
 function prtime {
