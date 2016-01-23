@@ -1,0 +1,29 @@
+Versione del compilatore:
+	gcc (Ubuntu 5.2.1-22ubuntu2) 5.2.1 20151010
+cyclesort  [5000]: 	0m0.149s
+cyclesort  [10000]: 	0m0.567s
+cyclesort  [15000]: 	0m1.366s
+ocsort  [5000]: 	0m0.109s
+ocsort  [10000]: 	0m0.464s
+ocsort  [15000]: 	0m0.993s
+.................................
+cyclesort -O1 [5000]: 	0m0.038s
+cyclesort -O1 [10000]: 	0m0.139s
+cyclesort -O1 [15000]: 	0m0.315s
+ocsort -O1 [5000]: 	0m0.060s
+ocsort -O1 [10000]: 	0m0.332s
+ocsort -O1 [15000]: 	0m0.525s
+.................................
+cyclesort -O2 [5000]: 	0m0.029s
+cyclesort -O2 [10000]: 	0m0.128s
+cyclesort -O2 [15000]: 	0m0.282s
+ocsort -O2 [5000]: 	0m0.056s
+ocsort -O2 [10000]: 	0m0.245s
+ocsort -O2 [15000]: 	0m0.501s
+.................................
+cyclesort -O3 [5000]: 	0m0.009s
+cyclesort -O3 [10000]: 	0m0.039s
+cyclesort -O3 [15000]: 	0m0.083s
+ocsort -O3 [5000]: 	0m0.017s
+ocsort -O3 [10000]: 	0m0.051s
+ocsort -O3 [15000]: 	0m0.080s
